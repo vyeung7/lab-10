@@ -2,7 +2,7 @@
     $grid-count:9;
     .grid{
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto;
         background-color: seagreen;
     }
     @for $i1 from 1 through $grid-count{
@@ -10,9 +10,11 @@
             .n#{$i1}{
                 grid-row: round($i1/2)/ span 1;
                 grid-column: 3;
+                background: rgb(($i1*3), $i1, (($i1+10)*2));
                 border: 1px solid pink;
                 padding: 10px;
                 font-size:($i1+14px);
+                color: invert(rgb(($i1*3), $i1, (($i1+10)*2)));
             }
         }
     }
