@@ -1,14 +1,38 @@
 .grid{
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: seagreen;
+    background-color: khaki;
     padding: 10 px;
 }
 
 .n1{
-    background-color: khaki;
+    grid-row: 1/span 1;
+    grid-column: 1;
+    background-color: seagreen;
     border: 1px solid black;
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    color: blueviolet;
+}
+.n2{
+    grid-row: 2/span 2;
+    grid-column: 2;
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: blueviolet;
+}
+
+.n3{
+    grid-row: 1/span 3;
+    grid-column: 3;
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: blueviolet;
 }
