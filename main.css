@@ -1,0 +1,14 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: seagreen;
+    padding: 10 px;
+}
+
+.n1{
+    background-color: khaki;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
