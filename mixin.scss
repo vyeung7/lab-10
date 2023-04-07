@@ -1,0 +1,19 @@
+@mixin mobile-grid{
+    $grid-count:9;
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: seagreen;
+    }
+    @for $i1 from 1 through $grid-count{
+        @if $i1 % 2 == 0{
+            .n#{$i1}{
+                grid-row: round($i1/2)/ span 1;
+                grid-column: 3;
+                border: 1px solid pink;
+                padding: 10px;
+                font-size:($i1+14px);
+            }
+        }
+    }
+}
