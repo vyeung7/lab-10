@@ -2,7 +2,7 @@
     $grid-count:9;
     .grid{
         display: grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto;
         background-color: seagreen;
     }
     @for $i1 from 1 through $grid-count{

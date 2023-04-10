@@ -1,25 +1,25 @@
 .grid{
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    background-color: khaki;
-    padding: 10 px;
+    grid-template-columns: auto auto auto;
+    background-color: lightgray;
+    padding: 10px;
 }
 
 .n1{
     grid-row: 1/span 1;
     grid-column: 1;
-    background-color: seagreen;
-    border: 1px solid black;
+    background-color: lightseagreen;
+    border: 1px solid darkgoldenrod;
     padding: 20px;
     font-size: 30px;
     text-align: center;
     color: blueviolet;
 }
 .n2{
-    grid-row: 2/span 2;
+    grid-row: 2/span 1;
     grid-column: 2;
     background-color: aqua;
-    border: 1px solid black;
+    border: 1px solid darkgoldenrod;
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -27,12 +27,68 @@
 }
 
 .n3{
-    grid-row: 1/span 3;
+    grid-row: 1;
     grid-column: 3;
-    background-color: aqua;
-    border: 1px solid black;
+    background-color: lightseagreen;
+    border: 1px solid darkgoldenrod;
     padding: 20px;
     font-size: 30px;
     text-align: center;
     color: blueviolet;
 }
+
+.n4{
+    grid-row: 3/span 1;
+    grid-column: 1;
+    background-color: lightseagreen;
+    border: 1px solid darkgoldenrod;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: blueviolet;
+}
+
+.n5{
+    grid-row: 3;
+    grid-column: 3;
+    background-color: lightseagreen;
+    border: 1px solid darkgoldenrod;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: blueviolet;
+}
+
+.n6{
+    grid-row: 4/span 2;
+    grid-column: 2;
+    background-color: aqua;
+    border: 1px solid darkgoldenrod;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: blueviolet;
+}
+
+.n7{
+    grid-row: 6/span 5;
+    grid-column: 1;
+    background-color: lightseagreen;
+    border: 1px solid darkgoldenrod;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: blueviolet;
+}
+
+.n8{
+    grid-row: 6/span 5;
+    grid-column: 3;
+    background-color: lightseagreen;
+    border: 1px solid darkgoldenrod;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: blueviolet;
+}
+
