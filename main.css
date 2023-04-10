@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: lightgray;
-    padding: 10px;
 }
 
 .n1{
@@ -10,8 +9,8 @@
     grid-column: 1;
     background-color: lightseagreen;
     border: 1px solid darkgoldenrod;
-    padding: 20px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 15px;
     text-align: center;
     color: blueviolet;
 }
@@ -20,8 +19,8 @@
     grid-column: 2;
     background-color: aqua;
     border: 1px solid darkgoldenrod;
-    padding: 20px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 15px;
     text-align: center;
     color: blueviolet;
 }
@@ -31,8 +30,8 @@
     grid-column: 3;
     background-color: lightseagreen;
     border: 1px solid darkgoldenrod;
-    padding: 20px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 15px;
     text-align: center;
     color: blueviolet;
 }
@@ -42,8 +41,8 @@
     grid-column: 1;
     background-color: lightseagreen;
     border: 1px solid darkgoldenrod;
-    padding: 20px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 15px;
     text-align: center;
     color: blueviolet;
 }
@@ -53,8 +52,8 @@
     grid-column: 3;
     background-color: lightseagreen;
     border: 1px solid darkgoldenrod;
-    padding: 20px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 15px;
     text-align: center;
     color: blueviolet;
 }
@@ -64,8 +63,8 @@
     grid-column: 2;
     background-color: aqua;
     border: 1px solid darkgoldenrod;
-    padding: 20px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 15px;
     text-align: center;
     color: blueviolet;
 }
@@ -75,8 +74,8 @@
     grid-column: 1;
     background-color: lightseagreen;
     border: 1px solid darkgoldenrod;
-    padding: 20px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 15px;
     text-align: center;
     color: blueviolet;
 }
@@ -86,8 +85,8 @@
     grid-column: 3;
     background-color: lightseagreen;
     border: 1px solid darkgoldenrod;
-    padding: 20px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 15px;
     text-align: center;
     color: blueviolet;
 }
